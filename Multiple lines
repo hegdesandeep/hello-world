@@ -1,0 +1,23 @@
+//Component must only return ONE element
+const Intro = () => {
+  return <div>
+      <Headline />
+      <p>Welcome to the React world!</p>
+  <div>
+}
+
+const Intro = () => {
+    return (
+        <div>
+            <Headline />
+            <p>Welcome to the React world!</p>
+        </div>
+   )
+ }
+ 
+ const Intro = () => (
+    <div>
+        <Headline />
+        <p>Welcome to the React world!</p>
+    </div>
+ )
